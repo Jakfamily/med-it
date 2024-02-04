@@ -5445,3 +5445,117 @@ Stack trace:
 #4 C:\wamp64\www\med-it\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
 #5 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
 #6 C:\wa in C:\wamp64\www\med-it\wp-content\plugins\ocean-elementor-widgets\modules\accordion\widgets\accordion.php on line 244
+[04-Feb-2024 21:49:35 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 66
+[04-Feb-2024 21:49:35 UTC] PHP Stack trace:
+[04-Feb-2024 21:49:35 UTC] PHP   1. {main}() C:\wamp64\www\med-it\index.php:0
+[04-Feb-2024 21:49:35 UTC] PHP   2. require() C:\wamp64\www\med-it\index.php:17
+[04-Feb-2024 21:49:35 UTC] PHP   3. require_once() C:\wamp64\www\med-it\wp-blog-header.php:19
+[04-Feb-2024 21:49:35 UTC] PHP   4. include() C:\wamp64\www\med-it\wp-includes\template-loader.php:106
+[04-Feb-2024 21:49:35 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\med-it\wp-content\themes\oceanwp\404.php:51
+[04-Feb-2024 21:49:35 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\general-template.php:48
+[04-Feb-2024 21:49:35 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\med-it/wp-content/themes/oceanwp-child-theme-master/header.php', $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\template.php:725
+[04-Feb-2024 21:49:35 UTC] PHP   8. require_once() C:\wamp64\www\med-it\wp-includes\template.php:790
+[04-Feb-2024 21:49:38 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 66
+[04-Feb-2024 21:49:38 UTC] PHP Stack trace:
+[04-Feb-2024 21:49:38 UTC] PHP   1. {main}() C:\wamp64\www\med-it\index.php:0
+[04-Feb-2024 21:49:38 UTC] PHP   2. require() C:\wamp64\www\med-it\index.php:17
+[04-Feb-2024 21:49:38 UTC] PHP   3. require_once() C:\wamp64\www\med-it\wp-blog-header.php:19
+[04-Feb-2024 21:49:38 UTC] PHP   4. include() C:\wamp64\www\med-it\wp-includes\template-loader.php:106
+[04-Feb-2024 21:49:38 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\med-it\wp-content\themes\oceanwp\404.php:51
+[04-Feb-2024 21:49:38 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\general-template.php:48
+[04-Feb-2024 21:49:38 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\med-it/wp-content/themes/oceanwp-child-theme-master/header.php', $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\template.php:725
+[04-Feb-2024 21:49:38 UTC] PHP   8. require_once() C:\wamp64\www\med-it\wp-includes\template.php:790
+[04-Feb-2024 21:49:44 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 66
+[04-Feb-2024 21:49:44 UTC] PHP Stack trace:
+[04-Feb-2024 21:49:44 UTC] PHP   1. {main}() C:\wamp64\www\med-it\index.php:0
+[04-Feb-2024 21:49:44 UTC] PHP   2. require() C:\wamp64\www\med-it\index.php:17
+[04-Feb-2024 21:49:44 UTC] PHP   3. require_once() C:\wamp64\www\med-it\wp-blog-header.php:19
+[04-Feb-2024 21:49:44 UTC] PHP   4. include() C:\wamp64\www\med-it\wp-includes\template-loader.php:106
+[04-Feb-2024 21:49:44 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\med-it\wp-content\themes\oceanwp\404.php:51
+[04-Feb-2024 21:49:44 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\general-template.php:48
+[04-Feb-2024 21:49:44 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\med-it/wp-content/themes/oceanwp-child-theme-master/header.php', $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\template.php:725
+[04-Feb-2024 21:49:44 UTC] PHP   8. require_once() C:\wamp64\www\med-it\wp-includes\template.php:790
+[04-Feb-2024 21:49:47 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 66
+[04-Feb-2024 21:49:47 UTC] PHP Stack trace:
+[04-Feb-2024 21:49:47 UTC] PHP   1. {main}() C:\wamp64\www\med-it\index.php:0
+[04-Feb-2024 21:49:47 UTC] PHP   2. require() C:\wamp64\www\med-it\index.php:17
+[04-Feb-2024 21:49:47 UTC] PHP   3. require_once() C:\wamp64\www\med-it\wp-blog-header.php:19
+[04-Feb-2024 21:49:47 UTC] PHP   4. include() C:\wamp64\www\med-it\wp-includes\template-loader.php:106
+[04-Feb-2024 21:49:47 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\med-it\wp-content\themes\oceanwp\404.php:51
+[04-Feb-2024 21:49:47 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\general-template.php:48
+[04-Feb-2024 21:49:47 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\med-it/wp-content/themes/oceanwp-child-theme-master/header.php', $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\template.php:725
+[04-Feb-2024 21:49:47 UTC] PHP   8. require_once() C:\wamp64\www\med-it\wp-includes\template.php:790
+[04-Feb-2024 21:49:50 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 66
+[04-Feb-2024 21:49:50 UTC] PHP Stack trace:
+[04-Feb-2024 21:49:50 UTC] PHP   1. {main}() C:\wamp64\www\med-it\index.php:0
+[04-Feb-2024 21:49:50 UTC] PHP   2. require() C:\wamp64\www\med-it\index.php:17
+[04-Feb-2024 21:49:50 UTC] PHP   3. require_once() C:\wamp64\www\med-it\wp-blog-header.php:19
+[04-Feb-2024 21:49:50 UTC] PHP   4. include() C:\wamp64\www\med-it\wp-includes\template-loader.php:106
+[04-Feb-2024 21:49:50 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\med-it\wp-content\themes\oceanwp\404.php:51
+[04-Feb-2024 21:49:50 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\general-template.php:48
+[04-Feb-2024 21:49:50 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\med-it/wp-content/themes/oceanwp-child-theme-master/header.php', $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\template.php:725
+[04-Feb-2024 21:49:50 UTC] PHP   8. require_once() C:\wamp64\www\med-it\wp-includes\template.php:790
+[04-Feb-2024 21:49:56 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 66
+[04-Feb-2024 21:49:56 UTC] PHP Stack trace:
+[04-Feb-2024 21:49:56 UTC] PHP   1. {main}() C:\wamp64\www\med-it\index.php:0
+[04-Feb-2024 21:49:56 UTC] PHP   2. require() C:\wamp64\www\med-it\index.php:17
+[04-Feb-2024 21:49:56 UTC] PHP   3. require_once() C:\wamp64\www\med-it\wp-blog-header.php:19
+[04-Feb-2024 21:49:56 UTC] PHP   4. include() C:\wamp64\www\med-it\wp-includes\template-loader.php:106
+[04-Feb-2024 21:49:56 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\med-it\wp-content\themes\oceanwp\404.php:51
+[04-Feb-2024 21:49:56 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\general-template.php:48
+[04-Feb-2024 21:49:56 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\med-it/wp-content/themes/oceanwp-child-theme-master/header.php', $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\template.php:725
+[04-Feb-2024 21:49:56 UTC] PHP   8. require_once() C:\wamp64\www\med-it\wp-includes\template.php:790
+[04-Feb-2024 22:31:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_custom_scripts' not found or invalid function name in C:\wamp64\www\med-it\wp-includes\class-wp-hook.php on line 324
+[04-Feb-2024 22:31:02 UTC] PHP Stack trace:
+[04-Feb-2024 22:31:02 UTC] PHP   1. {main}() C:\wamp64\www\med-it\index.php:0
+[04-Feb-2024 22:31:02 UTC] PHP   2. require() C:\wamp64\www\med-it\index.php:17
+[04-Feb-2024 22:31:02 UTC] PHP   3. require_once() C:\wamp64\www\med-it\wp-blog-header.php:19
+[04-Feb-2024 22:31:02 UTC] PHP   4. include() C:\wamp64\www\med-it\wp-includes\template-loader.php:106
+[04-Feb-2024 22:31:02 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\med-it\wp-content\themes\oceanwp\page.php:12
+[04-Feb-2024 22:31:02 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\general-template.php:48
+[04-Feb-2024 22:31:02 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\med-it/wp-content/themes/oceanwp-child-theme-master/header.php', $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\template.php:725
+[04-Feb-2024 22:31:02 UTC] PHP   8. require_once() C:\wamp64\www\med-it\wp-includes\template.php:790
+[04-Feb-2024 22:31:02 UTC] PHP   9. wp_head() C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\header.php:15
+[04-Feb-2024 22:31:02 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\wamp64\www\med-it\wp-includes\general-template.php:3052
+[04-Feb-2024 22:31:02 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\med-it\wp-includes\plugin.php:517
+[04-Feb-2024 22:31:02 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\med-it\wp-includes\class-wp-hook.php:348
+[04-Feb-2024 22:31:02 UTC] PHP  13. wp_enqueue_scripts('') C:\wamp64\www\med-it\wp-includes\class-wp-hook.php:324
+[04-Feb-2024 22:31:02 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\wamp64\www\med-it\wp-includes\script-loader.php:2262
+[04-Feb-2024 22:31:02 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\med-it\wp-includes\plugin.php:517
+[04-Feb-2024 22:31:02 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\med-it\wp-includes\class-wp-hook.php:348
+[04-Feb-2024 22:32:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_custom_scripts' not found or invalid function name in C:\wamp64\www\med-it\wp-includes\class-wp-hook.php on line 324
+[04-Feb-2024 22:32:10 UTC] PHP Stack trace:
+[04-Feb-2024 22:32:10 UTC] PHP   1. {main}() C:\wamp64\www\med-it\index.php:0
+[04-Feb-2024 22:32:10 UTC] PHP   2. require() C:\wamp64\www\med-it\index.php:17
+[04-Feb-2024 22:32:10 UTC] PHP   3. require_once() C:\wamp64\www\med-it\wp-blog-header.php:19
+[04-Feb-2024 22:32:10 UTC] PHP   4. include() C:\wamp64\www\med-it\wp-includes\template-loader.php:106
+[04-Feb-2024 22:32:10 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\med-it\wp-content\themes\oceanwp\page.php:12
+[04-Feb-2024 22:32:10 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\general-template.php:48
+[04-Feb-2024 22:32:10 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\med-it/wp-content/themes/oceanwp-child-theme-master/header.php', $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\template.php:725
+[04-Feb-2024 22:32:10 UTC] PHP   8. require_once() C:\wamp64\www\med-it\wp-includes\template.php:790
+[04-Feb-2024 22:32:10 UTC] PHP   9. wp_head() C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\header.php:15
+[04-Feb-2024 22:32:10 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\wamp64\www\med-it\wp-includes\general-template.php:3052
+[04-Feb-2024 22:32:10 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\med-it\wp-includes\plugin.php:517
+[04-Feb-2024 22:32:10 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\med-it\wp-includes\class-wp-hook.php:348
+[04-Feb-2024 22:32:10 UTC] PHP  13. wp_enqueue_scripts('') C:\wamp64\www\med-it\wp-includes\class-wp-hook.php:324
+[04-Feb-2024 22:32:10 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\wamp64\www\med-it\wp-includes\script-loader.php:2262
+[04-Feb-2024 22:32:10 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\med-it\wp-includes\plugin.php:517
+[04-Feb-2024 22:32:10 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\med-it\wp-includes\class-wp-hook.php:348
+[04-Feb-2024 22:32:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_custom_scripts' not found or invalid function name in C:\wamp64\www\med-it\wp-includes\class-wp-hook.php on line 324
+[04-Feb-2024 22:32:18 UTC] PHP Stack trace:
+[04-Feb-2024 22:32:18 UTC] PHP   1. {main}() C:\wamp64\www\med-it\index.php:0
+[04-Feb-2024 22:32:18 UTC] PHP   2. require() C:\wamp64\www\med-it\index.php:17
+[04-Feb-2024 22:32:18 UTC] PHP   3. require_once() C:\wamp64\www\med-it\wp-blog-header.php:19
+[04-Feb-2024 22:32:18 UTC] PHP   4. include() C:\wamp64\www\med-it\wp-includes\template-loader.php:106
+[04-Feb-2024 22:32:18 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\med-it\wp-content\themes\oceanwp\page.php:12
+[04-Feb-2024 22:32:18 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\general-template.php:48
+[04-Feb-2024 22:32:18 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\med-it/wp-content/themes/oceanwp-child-theme-master/header.php', $load_once = TRUE, $args = []) C:\wamp64\www\med-it\wp-includes\template.php:725
+[04-Feb-2024 22:32:18 UTC] PHP   8. require_once() C:\wamp64\www\med-it\wp-includes\template.php:790
+[04-Feb-2024 22:32:18 UTC] PHP   9. wp_head() C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\header.php:15
+[04-Feb-2024 22:32:18 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\wamp64\www\med-it\wp-includes\general-template.php:3052
+[04-Feb-2024 22:32:18 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\med-it\wp-includes\plugin.php:517
+[04-Feb-2024 22:32:18 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\med-it\wp-includes\class-wp-hook.php:348
+[04-Feb-2024 22:32:18 UTC] PHP  13. wp_enqueue_scripts('') C:\wamp64\www\med-it\wp-includes\class-wp-hook.php:324
+[04-Feb-2024 22:32:18 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\wamp64\www\med-it\wp-includes\script-loader.php:2262
+[04-Feb-2024 22:32:18 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\med-it\wp-includes\plugin.php:517
+[04-Feb-2024 22:32:18 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\med-it\wp-includes\class-wp-hook.php:348

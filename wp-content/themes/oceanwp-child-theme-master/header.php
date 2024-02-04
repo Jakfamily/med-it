@@ -63,7 +63,7 @@ $lien=get_field('lien_google_maps', 161);
 			<div class="popup-address">
 				<p><b>Le lieu</b></p>
 				<?php echo $lieu; ?>
-				<a class="popup-link" href="<?php  $lien; ?>" target="_blank">Voir sur Google Maps</a>
+				<a class="popup-link" href="<?php echo $lien; ?>" target="_blank">Voir sur Google Maps</a>
 			</div>
 			<div class="popup-address">
 				<p><b>La date</b></p>
@@ -73,7 +73,7 @@ $lien=get_field('lien_google_maps', 161);
 		<p class="popup-informations">Vous souhaitez plus d'informations concernant cet événement ?</p>
 		<?php
 		// On insère le formulaire de demandes de renseignements
-		do_shortcode('[contact-form-7 id="910" title="Formulaire salon New York"]');
+		do_shortcode('[contact-form-7 id="b71161c" title="Formulaire salon New York"]');
 		?>
 	</div>
 </div>
@@ -81,12 +81,29 @@ $lien=get_field('lien_google_maps', 161);
 <!-- Code pour fermer la popup -->
 
 <script>
-jQuery(document).ready(function($) {
-    $('.popup-close').click(function(){
-        $(this).parent().hide();
-    });
-});
+$('.popup-close').click(function(){
+	$(this).parent().hide();
+})
 </script>
 
 
 <!-- Ajout d'un bouton contact au menu -->
+
+<?php
+
+/**
+ * Shortcode pour ajouter un bouton
+ */
+// function contact_btn() {
+
+// 	// Code du bouton
+// 	$string .= '<a href="/contact" class="contact-btn">Nous contacter</a>';
+
+// 	// On retourne le code
+// 	return $string;
+
+// }
+// // On publie le shortcode
+// add_shortcode('contact', 'contact_btn');
+
+?>

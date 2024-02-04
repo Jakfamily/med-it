@@ -33,8 +33,13 @@ add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
 
 
 function contact_btn( $items, $args ) {
-	$items .= '<a href="/contact" class="contact-btn">Nous contacter</a>';
+	$items .= '<a href="http://localhost/med-it/contact" class="nav-contact">Nous contacter</a>';
 	return $items;
 }
-
 add_filter( 'wp_nav_menu_items', 'contact_btn', 10, 2 );
+
+
+function modal_script() {
+	wp_enqueue_script('custom-scripts', get_stylesheet_directory_uri() . '/scripts/modal_script.js' , array('jquery'), '1.0.0', true);
+}
+add_action('wp_enqueue_scripts', 'modal_script');
