@@ -9,13 +9,24 @@ Version: 1.0
 */
 
 /* Parent stylesheet should be loaded from functions.php not using @import */
-.nav-contact {
+#nav-contact {
     color: white;
     font-style: 15px;
     text-decoration: none;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+#nav-contact:hover {
+    color: #28babf;
+
+}
+
+#menu-main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-btn {
