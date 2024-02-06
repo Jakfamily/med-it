@@ -5559,3 +5559,48 @@ Stack trace:
 [04-Feb-2024 22:32:18 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\wamp64\www\med-it\wp-includes\script-loader.php:2262
 [04-Feb-2024 22:32:18 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\med-it\wp-includes\plugin.php:517
 [04-Feb-2024 22:32:18 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\med-it\wp-includes\class-wp-hook.php:348
+[06-Feb-2024 08:10:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_contact_link_to_menu(), 1 passed in C:\wamp64\www\med-it\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\functions.php:35
+Stack trace:
+#0 C:\wamp64\www\med-it\wp-includes\class-wp-hook.php(326): add_contact_link_to_menu('<li id="menu-it...')
+#1 C:\wamp64\www\med-it\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\wamp64\www\med-it\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\wamp64\www\med-it\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#4 C:\wamp64\www\med-it\wp-includes\template.php(792): require('C:\\wamp64\\www\\m...')
+#5 C:\wamp64\www\med-it\wp-includes\template.php(725): load_template('C:\\wamp64\\www\\m...', false, Array)
+#6 C:\wamp64\www\med-it\wp-includes\general-template.php(206): locate_template(Arr in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\functions.php on line 35
+[06-Feb-2024 08:10:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_contact_link_to_menu(), 1 passed in C:\wamp64\www\med-it\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\functions.php:35
+Stack trace:
+#0 C:\wamp64\www\med-it\wp-includes\class-wp-hook.php(326): add_contact_link_to_menu('<li id="menu-it...')
+#1 C:\wamp64\www\med-it\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\wamp64\www\med-it\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\wamp64\www\med-it\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#4 C:\wamp64\www\med-it\wp-includes\template.php(792): require('C:\\wamp64\\www\\m...')
+#5 C:\wamp64\www\med-it\wp-includes\template.php(725): load_template('C:\\wamp64\\www\\m...', false, Array)
+#6 C:\wamp64\www\med-it\wp-includes\general-template.php(206): locate_template(Arr in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\functions.php on line 35
+[06-Feb-2024 08:10:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_contact_link_to_menu(), 1 passed in C:\wamp64\www\med-it\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\functions.php:35
+Stack trace:
+#0 C:\wamp64\www\med-it\wp-includes\class-wp-hook.php(326): add_contact_link_to_menu('<li id="menu-it...')
+#1 C:\wamp64\www\med-it\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\wamp64\www\med-it\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\wamp64\www\med-it\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#4 C:\wamp64\www\med-it\wp-includes\template.php(792): require('C:\\wamp64\\www\\m...')
+#5 C:\wamp64\www\med-it\wp-includes\template.php(725): load_template('C:\\wamp64\\www\\m...', false, Array)
+#6 C:\wamp64\www\med-it\wp-includes\general-template.php(206): locate_template(Arr in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\functions.php on line 35
+[06-Feb-2024 08:10:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_contact_link_to_menu(), 1 passed in C:\wamp64\www\med-it\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\functions.php:35
+Stack trace:
+#0 C:\wamp64\www\med-it\wp-includes\class-wp-hook.php(326): add_contact_link_to_menu('<li id="menu-it...')
+#1 C:\wamp64\www\med-it\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\wamp64\www\med-it\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\wamp64\www\med-it\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#4 C:\wamp64\www\med-it\wp-includes\template.php(792): require('C:\\wamp64\\www\\m...')
+#5 C:\wamp64\www\med-it\wp-includes\template.php(725): load_template('C:\\wamp64\\www\\m...', false, Array)
+#6 C:\wamp64\www\med-it\wp-includes\general-template.php(206): locate_template(Arr in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\functions.php on line 35
+[06-Feb-2024 08:10:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_contact_link_to_menu(), 1 passed in C:\wamp64\www\med-it\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\functions.php:35
+Stack trace:
+#0 C:\wamp64\www\med-it\wp-includes\class-wp-hook.php(326): add_contact_link_to_menu('<li id="menu-it...')
+#1 C:\wamp64\www\med-it\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\wamp64\www\med-it\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\wamp64\www\med-it\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#4 C:\wamp64\www\med-it\wp-includes\template.php(792): require('C:\\wamp64\\www\\m...')
+#5 C:\wamp64\www\med-it\wp-includes\template.php(725): load_template('C:\\wamp64\\www\\m...', false, Array)
+#6 C:\wamp64\www\med-it\wp-includes\general-template.php(206): locate_template(Arr in C:\wamp64\www\med-it\wp-content\themes\oceanwp-child-theme-master\functions.php on line 35

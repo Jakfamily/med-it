@@ -29,14 +29,15 @@ function oceanwp_child_enqueue_parent_style() {
 }
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
 
-
-
-
-function contact_btn( $items, $args ) {
-	$items .= '<a href="http://localhost/med-it/contact" id="nav-contact">Nous contacter</a>';
+// La fonction contact_btn prend deux arguments : $items (les éléments de menu actuels) et $args (les arguments du menu).
+function contact_btn($items, $args) {
+	// Utilise get_site_url() pour obtenir l'URL complète vers la page de contact en ajoutant "/contact" à la racine du site.
+	$contact_url = get_site_url(null, '/contact', null);
+	// Ajoute un lien "Nous contacter" à la fin des éléments de menu actuels avec l'URL dynamique obtenue ci-dessus.
+	$items .= '<a href="' . esc_url($contact_url) . '" id="nav-contact">Nous contacter</a>';
 	return $items;
 }
-add_filter( 'wp_nav_menu_items', 'contact_btn', 10, 2 );
+add_filter('wp_nav_menu_items', 'contact_btn', 10, 2);
 
 
 function modal_script() {
